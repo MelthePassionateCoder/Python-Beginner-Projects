@@ -47,6 +47,8 @@ for ele in val:
     else:
         if ele=="q" or ele=="Q":
             rand_list.append("s")
+        elif ele==" ":
+            continue
         else:
             rand_list.append(ele)
         
