@@ -8,17 +8,6 @@
 product = []
 product_ = []
 def binarySearch_product(arrProduct, target,low,high):
-    # mid = int((low + high)/2)
-    # print(low,high,mid)
-    # print(arrProduct)
-    # if(target==arrProduct[mid]):
-    #     print("I enter here")
-    #     return mid
-    # elif target > arrProduct[mid]:
-    #     print("I enter here 1")
-    #     return binarySearch_product(product,target,mid + 1, high)
-    # else:
-    #     high = mid - 1
     mid = int((low + high)/2)
     if low!=high:
         if(target==arrProduct[mid]):
